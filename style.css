@@ -1,10 +1,17 @@
 body{
+     margin-top: 5rem;
      background-image: url("images/Logo.jpg");
-     background-size: 300px 300px;
-     background-repeat: no-repeat;
+     background-size: 500px 250px;
+     background-repeat: repeat;
      background-position: center;
+     text-align: center;
+     color: red;
      
 }
+
+  h4{
+    text-size: 70px;
+  }
 
 ul {
      list-style-type: none;
@@ -18,7 +25,7 @@ ul {
    }
    
    li {
-     float: left;
+     float: right;
    }
    
    li a {
@@ -30,8 +37,8 @@ ul {
    }
    
    li a:hover:not(.active) {
-     background-color: #111;
+     background-color: rgb(231, 8, 8);
    }
    
    .active {
-     background-color: #4CAF50;
+     background-color: rgb(231, 14, 14);

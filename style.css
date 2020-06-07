@@ -1,44 +1,40 @@
 body{
-     margin-top: 5rem;
-     background-image: url("images/Logo.jpg");
-     background-size: 500px 250px;
-     background-repeat: repeat;
-     background-position: center;
-     text-align: center;
-     color: red;
+  display: grid;
+  font-family: 'Roboto', sans-serif;
+  background-image: url("images/AltLogo.png");
+  background-size: 500px 250px;
+  background-repeat: repeat;
+  background-position: center;
+  text-align: center;
+  color: red;
      
 }
 
   h4{
-    text-size: 70px;
+    font-size: 20px;
   }
 
-ul {
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
-     overflow: hidden;
-     background-color: #333;
-     position: fixed;
-     top: 0;
-     width: 100%;
-   }
-   
-   li {
-     float: right;
-   }
-   
-   li a {
-     display: block;
-     color: white;
-     text-align: center;
-     padding: 14px 16px;
-     text-decoration: none;
-   }
-   
-   li a:hover:not(.active) {
-     background-color: rgb(231, 8, 8);
-   }
-   
-   .active {
-     background-color: rgb(231, 14, 14);
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+
+  }
+
+  .ppic{
+    width: 4rem;
+  }
+  
+
+  footer{
+    justify-content: space-evenly;
+    padding: 3%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.footerlogo{
+  grid-auto-flow: column;
+  max-width: 5%;
+  margin-left: 12%;
+  padding-bottom: 5%;
+}
